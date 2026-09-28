@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Erste Zahl?");
+            Convert.ToInt32(Console.ReadLine());
         }
     }
 }
