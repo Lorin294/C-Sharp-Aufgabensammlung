@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.11.12217.175 insiders
+VisualStudioVersion = 18.11.12217.175
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{63F2B11C-657F-4C69-B682-BA425400DC2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addierer", "Addierer\Addierer.csproj", "{FD6649A0-CBEA-4CA7-A361-BFA9EF82A658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anzahl_Sekunden_eines_Monats", "Anzahl_Sekunden_eines_Monats\Anzahl_Sekunden_eines_Monats.csproj", "{98CA2BBB-C188-4C61-9D2B-1FFEBEFA4E9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FD6649A0-CBEA-4CA7-A361-BFA9EF82A658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6649A0-CBEA-4CA7-A361-BFA9EF82A658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6649A0-CBEA-4CA7-A361-BFA9EF82A658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CA2BBB-C188-4C61-9D2B-1FFEBEFA4E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CA2BBB-C188-4C61-9D2B-1FFEBEFA4E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CA2BBB-C188-4C61-9D2B-1FFEBEFA4E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CA2BBB-C188-4C61-9D2B-1FFEBEFA4E9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
