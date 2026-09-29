@@ -20,9 +20,9 @@
 
                 Console.WriteLine("Bereit für den Lauf?(J/N)");
                 string ready = Console.ReadLine();
-                if (ready == "J" || ready == "j")
+                if (ready.ToLower() == "j")
                 {
-                    while (laps >y= lapsRunned)
+                    while (laps >= lapsRunned)
                     {
                         Console.WriteLine("Du läufst Runde: " + lapsRunned);
                         lapsRunned++;
