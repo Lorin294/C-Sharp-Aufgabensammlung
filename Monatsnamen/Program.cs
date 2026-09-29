@@ -51,7 +51,7 @@
                             Console.WriteLine("Monat: Dezember");
                             break;
                     }
-                    sucess = false;
+                    sucess = true;
                 }
                 else
                 {
