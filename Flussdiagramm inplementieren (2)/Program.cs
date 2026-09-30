@@ -22,7 +22,7 @@
                 string ready = Console.ReadLine();
                 if (ready == "J" || ready == "j")
                 {
-                    while (laps >y= lapsRunned)
+                    while (laps >= lapsRunned)
                     {
                         Console.WriteLine("Du läufst Runde: " + lapsRunned);
                         lapsRunned++;
