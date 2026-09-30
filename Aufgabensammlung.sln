@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verbotene_Wörter", "Verbot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme_Berechnen", "Quersumme_Berechnen\Quersumme_Berechnen.csproj", "{4645954D-D2ED-4FEC-ACBE-E9CDC8F1EBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme_Teibarkeit", "Quersumme_Teibarkeit\Quersumme_Teibarkeit.csproj", "{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{4645954D-D2ED-4FEC-ACBE-E9CDC8F1EBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4645954D-D2ED-4FEC-ACBE-E9CDC8F1EBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4645954D-D2ED-4FEC-ACBE-E9CDC8F1EBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
