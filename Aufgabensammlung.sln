@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme_Berechnen", "Quer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme_Teibarkeit", "Quersumme_Teibarkeit\Quersumme_Teibarkeit.csproj", "{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganzzahl_zu_Binär", "ConsoleApp1\Ganzzahl_zu_Binär.csproj", "{5C0FA123-70C2-4370-BF4F-0A1E9AE571D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1B953E-2398-41DB-8F01-FD03F9C75AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0FA123-70C2-4370-BF4F-0A1E9AE571D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0FA123-70C2-4370-BF4F-0A1E9AE571D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0FA123-70C2-4370-BF4F-0A1E9AE571D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0FA123-70C2-4370-BF4F-0A1E9AE571D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
