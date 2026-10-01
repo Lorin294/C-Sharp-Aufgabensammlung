@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganzzahl_zu_Binär", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufsummieren", "Aufsummieren\Aufsummieren.csproj", "{3147CEC4-3D1D-47EE-BC35-4096D2A8816A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diagonale linie", "diagonale linie\diagonale linie.csproj", "{E18D87DA-7CA8-48C6-8C6C-8689FBC028CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3147CEC4-3D1D-47EE-BC35-4096D2A8816A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3147CEC4-3D1D-47EE-BC35-4096D2A8816A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3147CEC4-3D1D-47EE-BC35-4096D2A8816A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18D87DA-7CA8-48C6-8C6C-8689FBC028CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18D87DA-7CA8-48C6-8C6C-8689FBC028CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18D87DA-7CA8-48C6-8C6C-8689FBC028CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18D87DA-7CA8-48C6-8C6C-8689FBC028CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
