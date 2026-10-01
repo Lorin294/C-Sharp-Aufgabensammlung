@@ -5,11 +5,11 @@
         static void Main(string[] args)
         {
             bool input = false;
-            int numb1, numb2 = 0;
+            int numb, numb2 = 0;
             do
             {
                 Console.Write("Zahl 1: ");
-                if (int.TryParse(Console.ReadLine(), out numb1) && numb1>0)
+                if (int.TryParse(Console.ReadLine(), out numb) && numb>0)
                 {
                     input = true;
                 }
@@ -33,51 +33,44 @@
                     Console.WriteLine("Bitte positive Ganzzahl eingeben!");
                 }
             } while (!input);
-            if (numb1 < numb2)
+            if (numb < numb2)
             {
-                while (numb1 <= numb2)
+                while (numb <= numb2)
                 {
-                    int results = GetCheckSum1(numb1, numb2);
-                    if (numb1 % results == 0)
+                    int results = GetCheckSum(numb);
                     {
-                        Console.WriteLine(numb1 + "\t" + results + "\t" + numb1 / results);
+                        if (numb % results == 0)
+                        {
+                            Console.WriteLine(numb + "\t" + results + "\t" + numb / results);
+                        }
                     }
-                    numb1++;
+                    numb++;
                 }
             }
             else
             {
-                while (numb2 <= numb1)
+                int a = numb2;
+                numb2 = numb;
+                numb = a;
+                while (numb <= numb2)
                 {
-                    int results = GetCheckSum2(numb1, numb2);
-                    if (numb2 % results == 0)
+                    int results = GetCheckSum(numb);
+                    if (numb % results == 0)
                     {
-                        Console.WriteLine(numb2 + "\t" + results + "\t" + numb2 / results);
+                        Console.WriteLine(numb + "\t" + results + "\t" + numb / results);
                     }
-                    numb2++;
+                    numb++;
                 }
             }
         }
-        static int GetCheckSum1(int numb1,int numb2)
+        static int GetCheckSum(int numb)
         {
                 int sum = 0;
-            while (numb1 != 0)
+            while (numb != 0)
             {
 
-                sum = sum + (numb1 % 10);
-                numb1 = numb1 / 10;
-            }
-            return sum;
-        }
-
-        static int GetCheckSum2(int numb1, int numb2)
-        {
-            int sum = 0;
-            while (numb2 != 0)
-            {
-
-                sum = sum + (numb2 % 10);
-                numb2 = numb2 / 10;
+                sum = sum + (numb % 10);
+                numb = numb / 10;
             }
             return sum;
         }
