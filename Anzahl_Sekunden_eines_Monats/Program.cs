@@ -19,7 +19,7 @@
                 else
                 {
                     Console.WriteLine("Eingabe Fehlerhaft bitte. Bitte Zahl zwischen 28-31 Eingeben");
-                },
+                }
             }
         }
     }
